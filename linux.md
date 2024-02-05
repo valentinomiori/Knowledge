@@ -11,6 +11,12 @@ Bash:
 
 ### Entering the Current Script File Directory
 
+Shell:
+
+```sh
+exdir=$(dirname $(readlink -f "$0"))
+```
+
 Bash:
 
 ```sh
