@@ -9,6 +9,13 @@ Bash:
 
 \#!/bin/bash
 
+### Flags
+
+```sh
+set -x # Print command outputs
+set -e # Exit on first error
+```
+
 ### Entering the Current Script File Directory
 
 Shell:
