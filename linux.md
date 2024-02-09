@@ -16,6 +16,13 @@ set -x # Print command outputs
 set -e # Exit on first error
 ```
 
+### Variable Declaration/Assignment
+
+```sh
+a = 15 # Very different!! a is interpreted as a command
+a=15   # Proper variable declaration/assignment
+```
+
 ### Entering the Current Script File Directory
 
 Shell:
