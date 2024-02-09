@@ -3,7 +3,7 @@
 ## Make Directory in Output Folder
 
 ```xml
-<Target Name="MakeMyDir" AfterTargets="Build">
-   <MakeDir Directories="$(OutDir)Database" />
+<Target Name="<TargetName>" AfterTargets="Build">
+   <MakeDir Directories="$(OutDir)<DirectoryName>" />
 </Target>
 ```
