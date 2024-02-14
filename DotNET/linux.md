@@ -10,6 +10,10 @@ chmod +x ./dotnet-install.sh
 ./dotnet-install.sh
 ./dotnet-install.sh --channel 6.0
 
-echo "export DOTNET_ROOT=$HOME/.dotnet" >> .bashrc
-echo "export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools" >> .bashrc
+echo "" >> ~/.bashrc
+echo "# .NET" >> ~/.bashrc
+echo "export DOTNET_ROOT=$HOME/.dotnet" >> ~/.bashrc
+echo "export DOTNET_INSTALL_DIR=$DOTNET_ROOT" >> ~/.bashrc
+echo "export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools" >> ~/.bashrc
+echo "export DOTNET_CLI_TELEMETRY_OPTOUT=true" >> ~/.bashrc
 ```
