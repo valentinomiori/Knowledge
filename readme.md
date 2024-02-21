@@ -10,7 +10,7 @@ This repository is a mean for me to record knowledge in various fields.
 
 [MySql](./mySQL.md)
 
-[PostgrSQL](./PostgreSQL.md)
+[PostgreSQL](./PostgreSQL.md)
 
 [TeX](./TeX.md)
 
