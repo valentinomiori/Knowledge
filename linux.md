@@ -37,6 +37,14 @@ Bash:
 cd "$(dirname "${BASH_SOURCE[0]}")"
 ```
 
+## Devices
+
+Reload udev rules:
+
+```sh
+sudo udevadm control --reload-rules && sudo udevadm trigger
+```
+
 ## Security
 
 ### Service Production Secrets
