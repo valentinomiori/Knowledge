@@ -21,3 +21,10 @@ PostgreSQL 15 also revokes the CREATE permission from all users except a databas
 
 \connect "CashPoint24"
 GRANT ALL ON SCHEMA public TO "CashPoint24";
+
+## Dump & Restore
+
+```sh
+pg_dump <db name> -e pg_catalog.plpgsql -F c --no-owner --no-privileges -f /tmp/<db name>.dump
+pg_restore -h localhost --username <user name> --password -1 -d <db name> /tmp/<db name>.dump
+```
