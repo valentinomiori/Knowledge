@@ -4,6 +4,8 @@ This repository is a mean for me to record knowledge in various fields.
 
 [Angular](./angular.md)
 
+[Cron](./cron.md)
+
 [Git](./git.md)
 
 [Linux](./linux.md)
