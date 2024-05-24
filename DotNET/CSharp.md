@@ -6,7 +6,7 @@
 
 - Avoid acronyms and abbreviations unless the abbreviation is much more widely used than the long form.
 - When converting nouns to identifiers (mixed casing): avoid all caps words longer than 3 characters, unless it is a single word -
-    ("Namespace.ACRONYM.ClassName" OK, "Namespace.ACRONIMBase.ClassName" NO => "Namespace.AcronymBase.ClassName")
+    ("Namespace.ACRONYM.ClassName" OK, "Namespace.ACRONYMBase.ClassName" NO => "Namespace.AcronymBase.ClassName")
 
 #### Types
 
@@ -70,12 +70,12 @@
 
 ##### Within each of these groups, order by access
 
-- *Explicit Implementation*
 - Private
 - Private Protected
 - Protected
 - Protected Internal
 - Internal
+- *Explicit Implementation*
 - Public
 
 ##### Within each of these groups, order by readonly, then non readonly, where applicable (fields)
