@@ -2,6 +2,8 @@
 
 This repository is a mean for me to record knowledge in various fields.
 
+## Categories
+
 [Angular](./angular.md)
 
 [Cron](./cron.md)
@@ -16,10 +18,14 @@ This repository is a mean for me to record knowledge in various fields.
 
 [TeX](./TeX.md)
 
-## DotNET
+### DotNET
 
 [Linux](./DotNET/linux.md)
 
 [MSBuild](./DotNET/MSBuild.md)
 
 [Nullable](./DotNET/Nullable.md)
+
+### Windows
+
+[PowerShell](./Windows/PowerShell.md)
