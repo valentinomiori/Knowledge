@@ -17,3 +17,16 @@ Push-Location $DIR
 # Now back to previous directory
 Pop-Location
 ```
+
+### Logical Operators
+
+| AND  | OR  | XOR  | NOT         |
+|------|-----|------|-------------|
+| -and | -or | -xor | -not *or* ! |
+
+Example: 
+
+```ps1
+echo $($true -and $true)
+echo $($true -and !$false)
+```
