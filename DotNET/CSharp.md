@@ -88,3 +88,11 @@
 - Prefer static local methods.
 - Place local methods at the top of the body if possible.
 - Omit braces in control flow only if using one line only and terminal only statements (return, break, continue).
+
+
+### Method Invokation
+
+#### Keyword Arguments
+
+Introduce parameter names for argument represented by keywords.
+Eg. GC.SuppressFinalize(this) NO => GC.SuppressFinalize(obj: this) OK;
