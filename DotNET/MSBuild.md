@@ -46,3 +46,14 @@ is equivalent to explicit imports:
    <MakeDir Directories="$(OutDir)<DirectoryName>" />
 </Target>
 ```
+
+## Assembly References
+```xml
+<ItemGroup >
+    <Reference Include="AssemblyName">
+        <HintPath>..path..\AssemblyName.dll</HintPath>
+        <!-- By setting <Private>False</Private> the DLLs won't be copied to the output folder (they may be loaded elsewhere) -->
+        <Private>False</Private>
+    </Reference>
+</ItemGroup>
+```
