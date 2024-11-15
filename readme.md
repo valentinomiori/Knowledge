@@ -10,6 +10,8 @@ This repository is a mean for me to record knowledge in various fields.
 
 [Git](./git.md)
 
+[GitLab](./GitLab.md)
+
 [Linux](./linux.md)
 
 [MySql](./mySQL.md)
